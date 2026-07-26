@@ -67,7 +67,7 @@ print("\nDataset Shape After Removing Outliers:")
 print(df.shape)
 
 # Save cleaned dataset
-df.to_csv("cleaned_data.csv", index=False)
+df.to_csv("cleaned_dataset.csv", index=False)
 
 print("\nData cleaning completed successfully!")
-print("Cleaned dataset saved as 'cleaned_data.csv'")
+print("Cleaned dataset saved as 'cleaned_dataset.csv'")
